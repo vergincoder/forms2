@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* form1 */
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+.registration{
+    margin: 0 auto;
+    font-family: 'Rubik',sans-serif;
+    width: 568px;
+    height: 594px;
+    border: 2px solid #000;
+
+}
+.registration__header{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px solid #C4C4C4;
+}
+.registration__subtitle{
+    font-style: normal;
+    color: #474747;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+.registration__subtitle::before{
+    content: '\00D7';
+    font-size: 25px;
+    display: block;
+    margin-right: 180px;
+}
+.registration__form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 45px 30px;
+}
+.registration__form__title{
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363636;
+    padding-bottom: 22px;
+}
+.registration__form__input{
+    padding: 19px 14px;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #363636;
+    border: 1px solid #B0B0B0;
+    border-radius: 8px;
+    
+}
+.und__input{
+    padding-bottom: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #008C8C;
+    display: flex;
+    justify-content: center;
+}
+.registration__form__subtext{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+    padding-bottom: 30px;
+}
+
+.registration__form__btn{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFF;
+    background: #B13957;
+    border-radius: 30px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.registration__form__button{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #474747;
+    border: 1px splod #afafaf;
+    background-color: #FFFF;
+    border-radius: 8px;
+    padding: 18px 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.google::before{
+    content: '';
+    background: url('../img/icons8-google\ 1.svg');
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.facebook::before{
+    content: '';
+    background: url('../img/icons8-facebook\ 1.svg');
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
